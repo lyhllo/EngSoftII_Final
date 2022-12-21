@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Patterns.AbstractFactory;
+using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Composite;
 using DesignPatterns.Patterns.Prototype;
@@ -85,6 +86,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "7":
+                        BuilderApp builderApp = new BuilderApp();
                         break;
 
                     case "8":
