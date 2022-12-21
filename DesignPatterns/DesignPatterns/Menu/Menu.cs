@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Patterns.AbstractFactory;
+using DesignPatterns.Patterns.Bridge;
 using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Composite;
@@ -95,6 +96,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "9":
+                        BridgeApp bridgeApp = new BridgeApp();
                         break;
 
                     case "10":
