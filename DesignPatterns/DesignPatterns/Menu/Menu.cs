@@ -2,6 +2,7 @@
 using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Proxy;
+using DesignPatterns.Patterns.State;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -71,6 +72,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "4":
+                        StateApp stateApp = new StateApp();
                         break;
 
                     case "5":
