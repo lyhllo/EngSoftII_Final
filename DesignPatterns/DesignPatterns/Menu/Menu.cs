@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Patterns.AbstractFactory;
+using DesignPatterns.Patterns.Adapter;
 using DesignPatterns.Patterns.Bridge;
 using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.ChainOfResponsability;
@@ -104,6 +105,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "11":
+                        AdapterApp adapterApp = new AdapterApp();
                         break;
 
                     default:
