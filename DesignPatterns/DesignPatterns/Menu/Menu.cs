@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Patterns.ChainOfResponsability;
+﻿using DesignPatterns.Patterns.AbstractFactory;
+using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Proxy;
 using System;
@@ -66,6 +67,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "3":
+                        AbstractFactoryApp abstractFactoryApp = new AbstractFactoryApp();
                         break;
 
                     case "4":
