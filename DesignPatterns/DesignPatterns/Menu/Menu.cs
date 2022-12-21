@@ -3,6 +3,7 @@ using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Proxy;
 using DesignPatterns.Patterns.State;
+using DesignPatterns.Patterns.Visitor;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,7 +17,7 @@ namespace DesignPatterns.Menu
     public class Menu
     {
         const string MENU =
-                "---- * ---- * ---- * ---- * ---- * ---- * ---- * ---- * ---- * ----\n" +
+                "\n---- * ---- * ---- * ---- * ---- * ---- * ---- * ---- * ---- * ----\n" +
                 "\n" +
                 "                       MENU INICIAL\n" +
                 "\n" +
@@ -25,14 +26,13 @@ namespace DesignPatterns.Menu
                 " 2 - Proxy (Eduardo)\n" +
                 " 3 - Abstract Factory (Edelberto)\n" +
                 " 4 - State (Paulo)\n" +
-                " 5 - Visitor (Denilson)\n" +
-                " 6 - Visitor (Hector)\n" +
+                " 5 - Visitor (Denilson/ Hector)\n" +
+                " 6 - Composite (Nelson)\n" +
                 " 7 - Builder (Guilherme)\n" +
                 " 8 - Interpreter (Daniela)\n" +
                 " 9 - Bridge (William)\n" +
                 "10 - Prototype (Matheus)\n" +
                 "11 - Adapter (Mateus)\n" +
-                "12 - Composite (Nelson)\n" +
                 "\n" +
                 "Opção: ";
 
@@ -76,6 +76,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "5":
+                        VisitorApp visitorApp = new VisitorApp();
                         break;
 
                     case "6":
@@ -95,9 +96,6 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "11":
-                        break;
-
-                    case "12":
                         break;
 
                     default:
