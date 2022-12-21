@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Patterns.AbstractFactory;
 using DesignPatterns.Patterns.ChainOfResponsability;
+using DesignPatterns.Patterns.Composite;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Proxy;
 using DesignPatterns.Patterns.State;
@@ -80,6 +81,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "6":
+                        CompositeApp compositeApp = new CompositeApp();
                         break;
 
                     case "7":
