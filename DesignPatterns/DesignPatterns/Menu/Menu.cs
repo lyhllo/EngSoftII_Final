@@ -2,6 +2,7 @@
 using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.ChainOfResponsability;
 using DesignPatterns.Patterns.Composite;
+using DesignPatterns.Patterns.Interpreter;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Proxy;
 using DesignPatterns.Patterns.State;
@@ -90,6 +91,7 @@ namespace DesignPatterns.Menu
                         break;
 
                     case "8":
+                        InterpreterApp interpreterApp = new InterpreterApp();
                         break;
 
                     case "9":
